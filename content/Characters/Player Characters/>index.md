@@ -1,5 +1,5 @@
 ---
-title: ">index"
+title: "Player Characters"
 type: "index"
 tags:
   - index

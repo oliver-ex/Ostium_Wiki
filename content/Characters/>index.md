@@ -1,5 +1,5 @@
 ---
-title: ">index"
+title: "Characters"
 type: "index"
 tags:
   - index

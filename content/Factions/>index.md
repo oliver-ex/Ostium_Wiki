@@ -1,5 +1,5 @@
 ---
-title: ">index"
+title: "Factions"
 type: "index"
 tags:
   - index

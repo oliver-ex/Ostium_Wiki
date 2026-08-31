@@ -1,5 +1,5 @@
 ---
-title: ">index"
+title: "Session Logs"
 type: "index"
 tags:
   - index

@@ -1,5 +1,5 @@
 ---
-title: ">index"
+title: "Ostium"
 type: "home"
 tags:
   - ostium

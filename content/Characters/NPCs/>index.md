@@ -1,5 +1,5 @@
 ---
-title: ">index"
+title: "NPCs"
 type: "index"
 tags:
   - index

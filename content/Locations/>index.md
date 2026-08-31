@@ -1,5 +1,5 @@
 ---
-title: ">index"
+title: "Locations"
 type: "index"
 tags:
   - index
