@@ -18,6 +18,12 @@ rsync -av --delete \
   "$vault_content/" \
   "$site_root/content/"
 
+# Quartz requires a literal index.md at the content root. The master Obsidian
+# vault keeps this note as >content.md so it follows the folder-note convention.
+if [[ -f "$site_root/content/>content.md" ]]; then
+  mv "$site_root/content/>content.md" "$site_root/content/index.md"
+fi
+
 if find "$site_root/content" -type d \( -name '_GM' -o -name '_Templates' -o -name '.obsidian' \) -print -quit | grep -q .; then
   echo "Privacy check failed: a private or excluded directory exists in website content." >&2
   exit 1

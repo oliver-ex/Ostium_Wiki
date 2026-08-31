@@ -13,12 +13,12 @@ This public wiki records only what the party knows. It begins with broad setting
 ## Explore
 
 - [[Locations/Ostium|Setting: Ostium]]
-- [[Characters/Player Characters/>index|Player Characters]]
-- [[Characters/NPCs/>index|NPCs]]
-- [[Locations/>index|Locations]]
-- [[Factions/>index|Factions]]
-- [[Storylines/>index|Storylines]]
-- [[Session Logs/>index|Session Logs]]
+- [[Characters/Player Characters/>Player Characters|Player Characters]]
+- [[Characters/NPCs/>NPCs|NPCs]]
+- [[Locations/>Locations|Locations]]
+- [[Factions/>Factions|Factions]]
+- [[Storylines/>Storylines|Storylines]]
+- [[Session Logs/>Session Logs|Session Logs]]
 
 ## Setting at a Glance
 
