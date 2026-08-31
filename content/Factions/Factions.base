@@ -1,7 +1,7 @@
 filters:
   and:
-    - 'file.folder == "Factions"'
-    - 'type == "faction"'
+    - file.folder == "Factions"
+    - type == "faction"
 properties:
   file.name:
     displayName: Name
