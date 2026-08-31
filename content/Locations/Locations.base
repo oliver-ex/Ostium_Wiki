@@ -1,9 +1,9 @@
 filters:
   and:
-    - 'file.folder == "Locations"'
-    - 'type == "location"'
+    - file.folder == "Locations"
+    - type == "location"
 formulas:
-  current_state: "if(condition, condition, status)"
+  current_state: if(condition, condition, status)
 properties:
   file.name:
     displayName: Name
