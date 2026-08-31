@@ -1,0 +1,38 @@
+filters:
+  and:
+    - 'file.folder == "Locations"'
+    - 'type == "location"'
+formulas:
+  current_state: "if(condition, condition, status)"
+properties:
+  file.name:
+    displayName: Name
+  region:
+    displayName: Region
+  parent-location:
+    displayName: Parent Location
+  settlement-type:
+    displayName: Type
+  formula.current_state:
+    displayName: Current State
+  control:
+    displayName: Control
+  access:
+    displayName: Access
+  rot-risk:
+    displayName: Rot Risk
+  factions:
+    displayName: Factions
+views:
+  - type: table
+    name: Locations
+    order:
+      - file.name
+      - region
+      - parent-location
+      - settlement-type
+      - formula.current_state
+      - control
+      - access
+      - rot-risk
+      - factions

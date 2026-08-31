@@ -1,0 +1,41 @@
+filters:
+  and:
+    - file.folder == "Characters/Player Characters"
+    - type == "pc"
+formulas:
+  ancestry_link: if(ancestry, link("https://daggerheart.org/reference/ancestries/" + if(ancestry == "Infernus", "infernis", ancestry.lower()), ancestry))
+properties:
+  file.name:
+    displayName: Name
+  player:
+    displayName: Player
+  age:
+    displayName: Age
+  formula.ancestry_link:
+    displayName: Ancestry
+  community:
+    displayName: Community
+  class:
+    displayName: Class
+  subclass:
+    displayName: Subclass
+  level:
+    displayName: Level
+  domains:
+    displayName: Domains
+  usual_location:
+    displayName: Location
+views:
+  - type: table
+    name: Player Characters
+    order:
+      - file.name
+      - player
+      - age
+      - formula.ancestry_link
+      - community
+      - class
+      - subclass
+      - level
+      - domains
+      - usual_location

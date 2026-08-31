@@ -1,0 +1,30 @@
+filters:
+  and:
+    - file.folder == "Session Logs"
+    - type == "session-log"
+properties:
+  file.name:
+    displayName: Name
+  session:
+    displayName: Session
+  date:
+    displayName: Date
+  pcs-present:
+    displayName: PCs Present
+  locations:
+    displayName: Locations
+  npcs:
+    displayName: NPCs
+  factions:
+    displayName: Factions
+views:
+  - type: table
+    name: Session Logs
+    order:
+      - file.name
+      - session
+      - date
+      - pcs-present
+      - locations
+      - npcs
+      - factions

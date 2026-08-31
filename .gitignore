@@ -12,3 +12,6 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+content/_GM/
+content/_Templates/
+content/.obsidian/

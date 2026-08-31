@@ -1,0 +1,30 @@
+filters:
+  and:
+    - 'file.folder == "Factions"'
+    - 'type == "faction"'
+properties:
+  file.name:
+    displayName: Name
+  status:
+    displayName: Status
+  base:
+    displayName: Base
+  territory:
+    displayName: Territory
+  leaders:
+    displayName: Leaders
+  allies:
+    displayName: Allies
+  rivals:
+    displayName: Rivals
+views:
+  - type: table
+    name: Factions
+    order:
+      - file.name
+      - status
+      - base
+      - territory
+      - leaders
+      - allies
+      - rivals

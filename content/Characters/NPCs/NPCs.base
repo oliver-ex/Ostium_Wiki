@@ -1,0 +1,32 @@
+filters:
+  and:
+    - file.folder == "Characters/NPCs"
+    - type == "npc"
+formulas:
+  ancestry_link: if(ancestry, link("https://daggerheart.org/reference/ancestries/" + if(ancestry == "Infernus", "infernis", ancestry.lower()), ancestry))
+properties:
+  file.name:
+    displayName: Name
+  last_known_location:
+    displayName: Location
+  age:
+    displayName: Age
+  formula.ancestry_link:
+    displayName: Ancestry
+  factions:
+    displayName: Faction Affiliations
+  occupation:
+    displayName: Occupation
+  status:
+    displayName: Status
+views:
+  - type: table
+    name: NPCs
+    order:
+      - file.name
+      - last_known_location
+      - age
+      - formula.ancestry_link
+      - factions
+      - occupation
+      - status
