@@ -15,3 +15,5 @@ Old Ostium is the failing former capital of Ostium. It remains inhabited despite
 
 It remains a place of survival, labour, and danger, with a complex relationship to the safer and wealthier [[Locations/New Ostium]].
 test
+test
+test
