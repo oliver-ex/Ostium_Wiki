@@ -53,21 +53,21 @@ Describe the character's mannerisms and personality.
 
 ## Character Traits
 
-| Trait     | Modifier |
-| --------- | -------: |
-| Agility   |          |
-| Strength  |          |
-| Finesse   |          |
-| Instinct  |          |
-| Presence  |          |
-| Knowledge |          |
+| Trait | Modifier |
+|---|---:|
+| Agility |  |
+| Strength |  |
+| Finesse |  |
+| Instinct |  |
+| Presence |  |
+| Knowledge |  |
 
 ## Experiences
 
 | Experience | Modifier |
-| ---------- | -------: |
-|            |          |
-|            |          |
+|---|---:|
+|  |  |
+|  |  |
 
 ## Defenses & Health
 
